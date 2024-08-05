@@ -7,7 +7,6 @@ public class Player {
 	static int damages;
 
 	public Player() {
-damages;
 	}
 
 	public void setRandomDamages() {
@@ -15,6 +14,7 @@ damages;
 		int n = rand.nextInt(150);
 		damages = n;
 
+		// DEBUGGING
 		System.out.println("DEBUGGING random number is : " + n);
 
 	}
