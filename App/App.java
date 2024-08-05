@@ -17,6 +17,7 @@ public class App {
 
 		System.out.println("\nEnter Valid Menu Number : ");
 
+		// DEBUGGING
 		Hero.setRandomDamages();
 	}
 }
