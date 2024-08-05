@@ -6,6 +6,9 @@ public class App {
 
 	public static void main(String[] args) {
 
+		// Initialize the 'Player' class
+		Player Hero = new Player();
+
 		System.out.println("\n===== WELCOME TO JAVA TEXT GAME =====\n");
 
 		System.out.println("MENU :");
@@ -13,5 +16,7 @@ public class App {
 		System.out.println("2 - New Adventure with Random Hero");
 
 		System.out.println("\nEnter Valid Menu Number : ");
+
+		Hero.setRandomDamages();
 	}
 }
